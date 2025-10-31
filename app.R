@@ -1,4 +1,4 @@
-
+## prueba de commit cuarta
 library(shiny)
 library(ggplot2)
 library(dplyr)
@@ -12,8 +12,6 @@ datos <- read.csv("cruce_todos_v3.csv", fileEncoding = "UTF-8")
 ##datos <- read.csv("https://mapfrecorp.sharepoint.com/:x:/r/sites/GO365EECOMPUSGLTSPE-CUMPLIMIENTO/Documentos%20compartidos/INFORMACION%20EN%20USO/JOSEPH/cruce_todos_v2.csv?d=w94978c6cd64841aa8e94d215d13d01f8&csf=1&download=1")
 
 # En app.R:
-
-
 
 # Limpia nombres de columnas
 names(datos) <- trimws(names(datos))
@@ -109,6 +107,6 @@ server <- function(input, output, session) {
 
 shinyApp(ui = ui, server = server)
 
-
+## comn
 ##rsconnect::deployApp(normalizePath("D:/Descargas/Pedidos Hugo/ANALISIS DE PRIMAS/10. OCTUBRE 2025/Shiny_analisis_polizas"))
-
+###fhfhfhhfgj
